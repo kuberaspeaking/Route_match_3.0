@@ -42,7 +42,7 @@ xmlhttp.onreadystatechange = function() {
     
   };
 
-  xmlhttp.open("GET", "https://api.myjson.com/bins/rbkw3", true);
+  xmlhttp.open("GET", "https://kuberaspeaking.github.io/DriveTrustRawData/", true);
   xmlhttp.send();
 
 

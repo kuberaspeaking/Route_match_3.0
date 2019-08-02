@@ -59,6 +59,8 @@ xmlhttp.onreadystatechange = function() {
       polyline = map.addObject(new H.map.Polyline(
       lineString, { style: { lineWidth: 4 }}
     ));
+      
+      map.setViewBounds(polyline.getBounds());
   
     // map.getViewModel().setLookAtData({bounds: polyline.getBoundingBox()});
   
